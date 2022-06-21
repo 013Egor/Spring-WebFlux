@@ -39,6 +39,9 @@ public class Calculator {
     }
 
     private Flux<Result> generateResultsOne() {
+        it1 = 0;
+        it2 = 0;
+        step = 0;
         return Flux
         .generate(() -> 0, (state, sink) -> {
             if (state >= amount) {

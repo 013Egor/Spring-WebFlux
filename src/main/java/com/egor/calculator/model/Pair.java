@@ -46,6 +46,6 @@ public class Pair {
             resultAmount2 = "0";
         }
 
-        return iteration + ",\"" + r1.getName() + "\"," + r1.getTime() + "," +resultAmount1 + ",\"" + r2.getName() + "\"," + r2.getTime() + "," + resultAmount2;
+        return iteration + ",\"" + r1.getName() + "\"," + r1.getAnswer() + "," + r1.getTime() + "," +resultAmount1 + ",\"" + r2.getName() + "\"," + r2.getAnswer() + "," + r2.getTime() + "," + resultAmount2;
     }
 }
